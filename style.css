@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: futura-pt;
+}
+/* header */
+header {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/53172b1be4b0cc8a5401db4a/1564523099100-9MPVY26S7NP0LQP96ESV/IMG_1370.jpg?format=2500w');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    color: #333;
+}
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+ .logo {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+} 
+/* nav.ul or nav-links */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+/* 0 sets the margin for the top and bottom of the li elements to 0.
+15px sets the margin for the left and right sides of the li elements to 15 pixels. */
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+    padding: 5px;
+    font-family: futura-pt;
+}
+
+.nav-links .home-button {
+    border: 2px solid #333;
+    padding: 5px 15px;
+}
+.nav-links a:hover {
+    color: #e6ad33;
+}  
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+.sideone p{
+    padding-right: 150px;
+    text-align: justify;
+}
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+.sidetwo{
+    position: relative;
+}
+.sidetwo img{
+    width: 90vh;
+    padding-right: 40px;
+}
+.image-overlay {
+    position: absolute;
+    top: 30vh;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(231, 209, 209, 0.9);
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+.image-overlay h2 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+}
+.read-more {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #f0e6d2;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#section2{
+    margin: 50px;
+}
+#sectionthree img{
+    height: 15vh;
+    padding-left: 45vh;
+}
+.container .co{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sectionfour{
+    margin-top: 10vh;
+}
+#sectionfour h4{
+    text-align: center;
+}
+#sectionfour p{
+    text-align: center;
+    font-size: 1em;
+}
+#sectionfour .img{
+    width: 45vh;
+    height: 50vh;
+}
+#sectionfour .img img{
+    width: 40vh;
+    height: 40vh;
+    margin: 5px;
+}
+#text-overlay{
+    margin-top: 2vh;
+    width: 38vh;
+}
+.img #text-overlay p{
+   font-size: .8em;
+   text-align: center;
+}
+<<<<<<< HEAD
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button2 button{
+    border-color: #c09191;
+    width: 20em;
+    height: 8vh;
+    color: #b79860;
+    background-color: transparent
+ }
+ .button2 button:hover{
+     width: 20em;
+     height: 8vh;
+     color: black;
+     background-color: rgb(189, 144, 132);
+  }
+.monkey{
+    position: relative;
+    padding-top: 70px;
+}
+.monkey img{
+    width: 229vh;
+    height: 80vh;
+}
+.monkeytext{
+    position: absolute;
+    left: 85vh;
+    bottom: 20vh;
+}
+.monkeytext p{
+   color: rgb(255, 255, 255);
+}
+#monkeytextsecond p{
+    font-size: xx-large;
+}
+
+
+
+/* five */
+.imgthree{
+    top: -38.3654px;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    
+}
+#five {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.image-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-container {
+    position: relative;
+    width: 30%;
+}
+
+.image-container img {
+    width: 100%;
+    height: 60vh;
+    display: block;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 140px;
+    left: 20px;
+    right: 20px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+
+
+
+.gridtrain{
+    position: relative;
+}
+.gridtrain img{
+    width: 100%;
+    height: 80vh;
+}
+.trainoverlay{
+    position: absolute;
+    bottom: 180px;
+    left: 30%;
+}
+.trainimg .p{
+    font-size:small;
+    text-align: center;
+    margin-left: 50%;
+    justify-content: center;
+
+}
+=======
+>>>>>>> ee5d509d8cac56d8ea1afe88748d7ecae87daebc
