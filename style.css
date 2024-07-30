@@ -146,7 +146,6 @@ header {
    font-size: .8em;
    text-align: center;
 }
-<<<<<<< HEAD
 .button2{
     display: flex;
     justify-content: center;
@@ -170,7 +169,7 @@ header {
     padding-top: 70px;
 }
 .monkey img{
-    width: 229vh;
+    width: 215vh;
     height: 80vh;
 }
 .monkeytext{
@@ -184,6 +183,74 @@ header {
 #monkeytextsecond p{
     font-size: xx-large;
 }
+
+/* train */
+#trainimg{
+    padding-top: 90px;
+}
+.gridtrain{
+    position: relative;
+}
+.gridtrain img{
+    width: 100%;
+    height: 80vh;
+}
+.trainoverlay{
+    position: absolute;
+    bottom: 180px;
+    left: 30%;
+}
+.trainimg .p{
+    font-size:small;
+    text-align: center;
+    margin-left: 50%;
+    justify-content: center;
+
+}
+
+/* six */
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.item1 {
+    margin: 10px;
+    text-align: center;
+    width: 250px; /* Adjust width as needed */
+}
+
+.item1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* border-radius: 5px; */
+}
+.item1 p {
+    font-size: 13px;
+    margin-top: 10px;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -233,25 +300,3 @@ header {
 
 
 
-
-.gridtrain{
-    position: relative;
-}
-.gridtrain img{
-    width: 100%;
-    height: 80vh;
-}
-.trainoverlay{
-    position: absolute;
-    bottom: 180px;
-    left: 30%;
-}
-.trainimg .p{
-    font-size:small;
-    text-align: center;
-    margin-left: 50%;
-    justify-content: center;
-
-}
-=======
->>>>>>> ee5d509d8cac56d8ea1afe88748d7ecae87daebc
