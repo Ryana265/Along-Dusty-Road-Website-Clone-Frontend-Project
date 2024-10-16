@@ -297,6 +297,20 @@ header {
     font-weight: bold;
 }
 
+body {
+    background-color: #f7e9e5;
+}
+.footer {
+    padding: 40px 0;
+    background-color: #f7e9e5;
+}
+.footer a {
+    color: #333;
+}
+.footer h5 {
+    font-weight: bold;
+}
+
 
 
 
